@@ -1,25 +1,87 @@
 <!DOCTYPE html>
-  <html lang="en">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital ID Card</title>
+    <style>
+      body {
+        font-family: Saraus, pagaran;
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 162 vh;
+        margin: 0;
+      }
+
+      .id-card {
+        width: 300px;
+        border: 2px solid #ccc;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+      }
+
+      header {
+        background-color: #4caf50;
+        color: blue;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      main {
+        padding: 20px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      main p.id-number {
+        font-weight: bold;
+        margin-top: 10px;
+        color: #333;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+      }
+
+      footer a {
+        color: #4caf50;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
-
   <body>
-    <header>
-      <h1>Luther Constatine Pagaran</h1>
-      <p>ID: M25-01-0393</p>
-    </header>
+    <div class="id-card">
+      <header>
+        Luther Constantine Pagaran
+      </header>
 
-    <main>
-      <p>Course: Bachelor Science Information Of Technology</p>
-      <p>Dream Job: Computer Shop Internet Cafe </p>
-    </main>
+      <main>
+        <p><strong>Course:</strong> Bachelor of Science in Information Technology</p>
+        <p><strong>Dream Job:</strong> Computer shop Internet cafe Arcade </p>
+        <p class="id-number">ID Card: M25-01-0393 </p>
+      </main>
 
-    <footer>
-      <a href="https://www.facebook.com/luther.pagaran.1" target="_blank">
-        Facebook Profile
-      </a>
-    </footer>
+      <footer>
+        <p>
+          <a href="https:https://www.facebook.com/luther.pagaran.1" target="_blank">https://www.facebook.com/coley.niy</a>
+        </p>
+      </footer>
+    </div>
   </body>
+</html>
